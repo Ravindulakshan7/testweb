@@ -1,36 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- ===== FIXED APP ICONS FOR iOS ===== -->
-    <!-- iOS Icons using external PNGs -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://img.icons8.com/color/180/000000/book-stack.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="https://img.icons8.com/color/120/000000/book-stack.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://img.icons8.com/color/152/000000/book-stack.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="https://img.icons8.com/color/167/000000/book-stack.png">
-    <link rel="apple-touch-icon" href="https://img.icons8.com/color/192/000000/book-stack.png">
-    
-    <!-- Android/Desktop Icons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://img.icons8.com/color/32/000000/book-stack.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://img.icons8.com/color/16/000000/book-stack.png">
-    
-    <!-- Fallback SVG -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>StudyMaster Pro</title>
-    
-    <!-- ===== APP METADATA ===== -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="StudyMaster">
-    <meta name="theme-color" content="#4361ee">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="description" content="Study Timer with Pomodoro & Spaced Repetition">
-    
-    <!-- PWA Manifest - SIMPLIFIED -->
-    <link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22StudyMaster%20Pro%22%2C%22short_name%22%3A%22StudyMaster%22%2C%22description%22%3A%22Study%20Timer%20with%20Pomodoro%20%26%20Spaced%20Repetition%22%2C%22start_url%22%3A%22.%2F%22%2C%22display%22%3A%22standalone%22%2C%22orientation%22%3A%22portrait%22%2C%22theme_color%22%3A%22%234361ee%22%2C%22background_color%22%3A%22%23ffffff%22%2C%22categories%22%3A%5B%22education%22%2C%22productivity%22%5D%2C%22icons%22%3A%5B%7B%22src%22%3A%22https%3A%2F%2Fimg.icons8.com%2Fcolor%2F192%2F000000%2Fbook-stack.png%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22https%3A%2F%2Fimg.icons8.com%2Fcolor%2F512%2F000000%2Fbook-stack.png%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%7D%5D%7D">
-    
+    <!-- ===== APP ICONS - BRAIN STUDY ICON ===== -->
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<link rel="apple-touch-icon" sizes="120x120" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<link rel="apple-touch-icon" sizes="152x152" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<link rel="icon" type="image/png" sizes="16x16" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+
+<!-- ===== PWA Manifest with Brain Icon ===== -->
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22StudyMaster%20Pro%22%2C%22short_name%22%3A%22StudyMaster%22%2C%22description%22%3A%22Study%20Timer%20with%20Pomodoro%20%26%20Spaced%20Repetition%22%2C%22start_url%22%3A%22.%2F%22%2C%22display%22%3A%22standalone%22%2C%22orientation%22%3A%22portrait%22%2C%22theme_color%22%3A%22%234361ee%22%2C%22background_color%22%3A%22%23ffffff%22%2C%22categories%22%3A%5B%22education%22%2C%22productivity%22%5D%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%2520100%2520100%2522%253E%253Ctext%2520y%253D%2522.9em%2522%2520font-size%253D%252290%2522%253E%25F0%259F%25A7%25A0%253C%252Ftext%253E%253C%252Fsvg%253E%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%5D%7D">
     <style>
         /* ===== CSS RESET ===== */
         * {
